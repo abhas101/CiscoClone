@@ -1,0 +1,145 @@
+
+
+/* reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+/* global start */
+.darkMode{
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 58, 58);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* global end */
+.main-page{
+    height: 100vh;
+}
+
+/* top navbar */
+.topNavbar ul{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(184, 184, 184);
+}
+.topNavbar ul li{
+    margin-left:20px;
+    list-style: none;
+    padding: .5rem .5rem 0rem .5rem;
+}
+
+.topNavbar ul li a{
+    text-decoration: none;
+    color:black;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.topNavbar ul li a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:1024px){
+    .topNavbar{
+        display: none;
+    }
+}
+
+/* second navbar */
+.navbar-brand img{
+    width: 3rem;
+}
+
+/*  hero tile */
+/* button */
+button#mainButton{
+    background-color: rgb(39, 39, 255);
+    color: white;
+    width: 10rem;
+    border: none;
+    height: 3rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+button#mainButton:hover{
+    background-color: rgb(0, 6, 87);
+}
+
+/* hero image */
+img#heroImage{
+    width: 100%;
+}
+/* aninmated icons */
+.heroIcons img{
+    width: 5rem;
+}
+
+/* cards start */
+.cards img{
+    width: 20rem;
+}
+/* cards end */
+
+/* info section start */
+
+
+.infoSection img{
+    width: 40rem;
+}
+.infoTitle{
+    width: 40%;
+}
+/* info section end */
+/* video */
+#video iframe{
+    width: 100%;
+    
+    background-color: transparent;
+}
+
+/* footer  */
+.footer{
+    height: 200px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.footer a{
+    margin-right: 20px;
+}
+
+.footerIcons i{
+    font-size: 30px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.footerIcons i:hover{
+    color: aqua;
+}
+
+
+/* dark modew */
+.toggle i{
+    font-size: 30px;
+
+}
